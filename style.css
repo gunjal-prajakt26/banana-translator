@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+:root {
+    --primary: #F2C94C;
+}
+body{
+    font-family: 'Roboto Mono', monospace;;
+}
+header {
+    display: inline;
+}
+.nav-heading {   
+    font-size: 3rem;
+    background-color: var(--primary);
+    padding: 4rem;
+}
+
+nav img {
+    max-width: 15%;
+    width: 400;
+    height: auto;
+    align-content:left;
+    padding-right: 2rem;
+}
+.output-area, textarea{
+    display: block;
+    border: 1px solid;
+    width: 40rem;
+    height: 60px;
+    padding: 1rem;
+    margin: 1rem auto;
+    align-items: center;
+}
+.btn-div{
+    text-align: center;
+    
+}
+#translate-btn{
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
