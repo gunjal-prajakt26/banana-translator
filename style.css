@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    
+
 }
 
 nav {
@@ -24,14 +24,17 @@ nav {
     font-size: 3rem;
     font-family: 'Righteous', cursive;
 }
+
 img {
     width: 7rem;
 }
-h6{
+
+h6 {
     text-align: center;
     margin-bottom: -1rem;
 }
-.output-area{
+
+.output-area {
     display: block;
     border: 1px solid;
     max-width: 60%;
@@ -39,7 +42,8 @@ h6{
     height: 60px;
     padding: 1rem;
     margin: 1rem auto 1rem auto;
-    align-items: center;}
+    align-items: center;
+}
 
 textarea {
     display: block;
@@ -51,9 +55,11 @@ textarea {
     margin: 2rem auto 1rem auto;
     align-items: center;
 }
+
 .btn-div {
     text-align: center;
 }
+
 #translate-btn {
     padding: 0.5rem;
 }
@@ -62,21 +68,24 @@ footer {
     background-color: var(--primary);
     height: 50%;
     width: 100%;
-    padding:auto;
+    padding: auto;
     text-align: center;
     font-family: 'Righteous', cursive;
 }
-footer div{
-    padding: 1.2rem; 
-    margin:auto;
+
+footer div {
+    padding: 1.2rem;
+    margin: auto;
     max-width: 700px;
     text-align: center;
 }
+
 footer img {
     padding: 0.5rem;
     width: 10rem;
 }
-footer p{
+
+footer p {
     width: 80%;
     max-width: 600;
 }

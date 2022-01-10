@@ -8,8 +8,8 @@ function readText(text) {
     return serverUrl + "?text=" + text;
 }
 
-function errorHandler(error){
-    console.log("Error is occured type error :"+ error);
+function errorHandler(error) {
+    console.log("Error is occured type error :" + error);
 }
 
 btnTranslator.addEventListener("click", function clickEventHandler() {
@@ -20,7 +20,7 @@ btnTranslator.addEventListener("click", function clickEventHandler() {
         .then(Response => Response.json())
         .then(json => {
             var translatedText = json.contents.translated;
-            outputText.innerText= translatedText;
-            }) 
+            outputText.innerText = translatedText;
+        })
         .catch(errorHandler)
 })
