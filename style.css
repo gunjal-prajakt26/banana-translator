@@ -1,41 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 :root {
     --primary: #F2C94C;
 }
-body{
-    font-family: 'Roboto Mono', monospace;;
-}
-header {
-    display: inline;
-}
-.nav-heading {   
-    font-size: 3rem;
-    background-color: var(--primary);
-    padding: 4rem;
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
-nav img {
-    max-width: 15%;
-    width: 400;
-    height: auto;
-    align-content:left;
-    padding-right: 2rem;
+nav {
+    background-color: var(--primary);
+    height: 8rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
-.output-area, textarea{
+
+.nav-heading {
+    font-size: 3rem;
+    font-family: 'Righteous', cursive;
+}
+img {
+    width: 7rem;
+}
+.output-area{
     display: block;
     border: 1px solid;
+    max-width: 60%;
     width: 40rem;
     height: 60px;
     padding: 1rem;
-    margin: 1rem auto;
+    margin: 1rem auto 1rem auto;
+    align-items: center;}
+
+textarea {
+    display: block;
+    border: 1px solid;
+    max-width: 60%;
+    width: 40rem;
+    height: 60px;
+    padding: 1rem;
+    margin: 2rem auto 1rem auto;
     align-items: center;
 }
-.btn-div{
+.btn-div {
     text-align: center;
-    
 }
-#translate-btn{
-    margin: 2rem auto;
+#translate-btn {
     padding: 0.5rem;
+}
+
+footer {
+    background-color: var(--primary);
+    height: 50%;
+    width: 100%;
+    padding:auto;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+}
+footer div{
+    padding: 1.2rem; 
+    margin:auto;
+    max-width: 700px;
+    text-align: center;
+}
+footer img {
+    padding: 0.5rem;
+    width: 10rem;
+}
+footer p{
+    width: 80%;
+    max-width: 600;
 }
