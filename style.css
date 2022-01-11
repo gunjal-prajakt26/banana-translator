@@ -7,7 +7,9 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -72,7 +74,7 @@ footer {
     padding-top: 0.5rem;
     text-align: center;
     font-family: 'Righteous', cursive;
-    margin-top: ???px;
+    margin-top: auto;
 }
 
 footer div {
