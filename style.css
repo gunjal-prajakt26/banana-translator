@@ -73,9 +73,9 @@ footer {
     text-align: center;
     font-family: 'Righteous', cursive;
     margin-bottom: -1rem;
-    position: fixed;
+    position: sticky;
     left: 0;
-   bottom: 0;
+
 }
 
 footer div {
