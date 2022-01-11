@@ -74,6 +74,8 @@ footer {
     font-family: 'Righteous', cursive;
     margin-bottom: -1rem;
     position: fixed;
+    left: 0;
+   bottom: 0;
 }
 
 footer div {
