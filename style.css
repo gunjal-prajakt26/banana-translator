@@ -75,7 +75,7 @@ footer {
     margin-bottom: -1rem;
     position: sticky;
     left: 0;
-
+   bottom: 0;
 }
 
 footer div {
