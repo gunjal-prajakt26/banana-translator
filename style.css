@@ -72,17 +72,14 @@ footer {
     padding-top: 0.5rem;
     text-align: center;
     font-family: 'Righteous', cursive;
-    margin-bottom: -1rem;
-    position: sticky;
-    left: 0;
-   bottom: 0;
+    margin-top: ???px;
 }
 
 footer div {
     padding-bottom: 0.2rem;
     margin: auto;
     width: 50%;
-    max-width: 700;
+   
     text-align: center;
 }
 
